@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #e0ebe8;
+    position:relative;
+    padding: 40px;
+}
+h1{
+    /* color: #42C2FF;  */
+    color: #66BFBF; 
+    text-align: center;
+    font-size: 90px;
+    padding-top: 40px;
+    font-family: "the nautigal",parisienne;
+    line-height: 2;
+}
+h2{
+    /* color: #42C2FF;  */
+    color: #66BFBF; 
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+}
+.lower-cloud{
+    position: absolute;
+    left: 300px;
+}
+
+.mountain{
+    position: relative;
+    top: 43px;
+}
+.upper-cloud{
+    position: relative;
+    left: 400px;
+    top: 80px;
+}
+hr{
+    width: 3%;
+    height: 0px;
+    border-width: 10px;
+    border-style: dotted;
+    border-bottom: none;
+    margin: 0px auto;
+    color: rgba(0, 255, 255, 0.593);
+}
+
+/* MAIN CONTAINER */
+.profile{
+    background-color: #ffffff;
+    width: 50%;
+    font-size: 18px;
+    font-family: serif;
+}
+.padding{
+    margin: 100px auto 100px auto;
+    /* text-align: center; */
+}
+.hi{
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.brand-img{
+    padding: 50px 0 40px 0;
+    text-align: center;
+    align-items: center;
+    margin: 0px auto;
+    display: block;
+}
+.para{
+    padding: 30px 0 30px 0;
+}
+h3,a{
+    color: #11999E;
+}
+
+/* SKILL SECTION */
+.skills{
+    width: 50%;
+    font-size: 18px;
+    font-family: serif;
+}
+.skills-computer{
+    border-radius: 100%;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+    border: 10px solid #fff;
+}
+.skills-computer:hover{
+    border: 10px solid #66BFBF;
+}
+.skills-chills{
+    border-radius: 100%;
+    width: 200px;
+    float: right;
+    margin-left: 30px;
+    border: 10px solid #fff;
+}
+.skills-chills:hover{
+    border: 10px solid #66BFBF;
+}
+.skill-row{
+    margin: 140px 0px;
+    align-self: center;
+}
+.skill{
+    text-align: center;
+}
+
+/* CONTACT ME SECTION */
+.contact-me{
+    width: 50%;
+}
+button{
+    margin-top: 15px;
+    background-color: #66BFBF;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: #11999E;
+}
+button a:hover{   
+    color: white;
+}
+/* BOTTOM CONTAINER */
+.bottom-container{
+    background-color: #66BFBF;  
+    height: 100px;
+}
+.footer-links{
+    padding: 20px 0px;
+}
+.footer-link{
+    color: #11999E;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+.footer-copy{
+    color: #EAF6F6;
+}
